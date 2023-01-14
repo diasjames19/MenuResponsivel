@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+body,html{
+   background-color: lightgray; 
+
+}
+header{
+    background-color: gray;
+}
+.container-titulo{
+    padding: 10px;
+    text-align: center;
+}
+i#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover{
+    background-color: white;
+    color:black;
+}
+ul{
+    display: none;
+}
+.container-menu{
+    display: block;
+   
+}
+.container-menu  li{
+    list-style: none;
+}
+.container-menu  a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 2px solid ;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    border-top: 2px solid gray;
+    cursor: pointer;
+}
+.container-menu a:hover{
+    background-color: rgb(104, 64, 141);
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 12px;
+    padding: 12px;
+}
+
+.container-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article >h2 {
+    padding-bottom: 25px;
+}
+article > p {
+    text-align: justify;
+    margin-bottom: 25px;
+    text-indent: 20px;
+}
