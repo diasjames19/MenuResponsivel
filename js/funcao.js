@@ -5,5 +5,4 @@ function clickMenu(){
    } else{
        op.style.display = 'block'
    }
-   
 }
