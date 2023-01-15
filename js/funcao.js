@@ -6,3 +6,13 @@ function clickMenu(){
        op.style.display = 'block'
    }
 }
+function telaScrenn(){
+    let op = document.getElementById('opcao')
+    let tela = window.outerWidth
+    if(tela >= 768){
+        op.style.display = 'block'
+    }else{
+        op.style.display = 'none'
+    }
+    
+}
